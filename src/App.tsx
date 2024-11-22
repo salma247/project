@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import BlogList from "./pages/Blog";
 import DeveloperDetails from "./pages/DeveloperDetails";
@@ -9,7 +9,6 @@ import Units from "./pages/Units";
 
 function App() {
   return (
-    <Router>
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -23,7 +22,6 @@ function App() {
           </Routes>
         </main>
       </div>
-    </Router>
   );
 }
 

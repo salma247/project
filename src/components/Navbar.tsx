@@ -9,7 +9,7 @@ export default function Navbar() {
     { name: "Home", href: "/", icon: Home },
     { name: "Units", href: "/units", icon: Building2 },
     { name: "Blog", href: "/blog", icon: Newspaper },
-    { name: "Profile", href: "/profile", icon: UserCircle },
+    // { name: "Profile", href: "/profile", icon: UserCircle },
   ];
 
   return (
