@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <Building2 className="h-8 w-8 text-primary" />
               <span className="ml-2 text-xl font-bold text-gray-900">
-                EgyEstate
+                EstateIQ
               </span>
             </Link>
           </div>
